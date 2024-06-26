@@ -1,0 +1,315 @@
+.navbarContainer {
+    background-color: #232020;
+    color: white;
+    height: 8vh;
+}
+
+.form {
+    padding-left: 1rem;
+    /* Ajuste o padding conforme necessário */
+}
+
+.pesquisa {
+    color: white;
+    padding-right: 1rem;
+    /* Ajuste o padding conforme necessário */
+}
+
+.title {
+    color: white;
+}
+
+.container1 {
+    width: 50%;
+    display: flex;
+}
+
+.teste {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input {
+    background-color: white;
+    border-radius: 20px;
+    border: solid black 2px;
+    width: 30vh;
+    padding-left: 20px;
+}
+
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.button {
+    border: solid black 2px;
+    border-radius: 20px;
+    width: 20vh;
+    /* Ajuste a largura conforme necessário */
+    max-width: 20vh;
+    /* Exemplo de largura máxima para evitar expansão excessiva */
+    transition: 0.5s;
+}
+
+.navbar-toggler-icon {
+    color: #ff0000;
+    /* Defina a cor desejada aqui */
+    background-color: white;
+    border: solid white 3px;
+}
+
+.button:hover {
+    background-color: #232020;
+    color: white;
+}
+
+.container2 {
+    padding-right: 10%;
+}
+
+.imgHome {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    background-position: center;
+}
+
+.containerContentHome {
+    padding: 0px;
+}
+
+.containerCripto {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+}
+
+.imgCripto {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px #232020;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 0.5s;
+}
+
+.imgCripto:hover{
+    transform: scale(1.05);
+}
+
+.buttonCard {
+    background-color: #232020;
+    border: solid black 2px;
+    color: white;
+    border-radius: 20px;
+    width: 40%;
+    transition: 0.5s;
+    font-size: 13px;
+    height: 5vh;
+}
+
+.buttonCard:hover {
+    background-color: white;
+    color: #232020;
+}
+
+.containerCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    height: 60vh;
+    width: 100%;
+}
+
+.paragraphContainer {
+    background-color: #232020;
+    color: white;
+    text-align: center;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.containerRobo {
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #232020;
+}
+
+.containerRobo1 {
+    padding-bottom: 10vh;
+    padding-right: 20vh;
+    display: flex;
+    color: white;
+}
+
+.inputMensagem {
+    background-color: white;
+    border-radius: 20px;
+    border: solid black 2px;
+    width: 40vh;
+    color: black;
+    padding-left: 20px;
+    margin-left: 20vh;
+    height: 40px;
+}
+
+.imgRobo {
+    border-radius: 100px;
+    height: 10vh;
+    width: 10vh;
+}
+
+.footer {
+    display: flex;
+    gap: 20vh;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+
+.footerItem {
+    height: 20vh;
+}
+
+@media(max-width: 1150px) {
+
+    .navbarContainer {
+        height: 15vh;
+    }
+
+    .container2 {
+        padding-right: 0%;
+    }
+
+    .paragraphContainer {
+        font-size: 13px;
+        height: 25vh;
+    }
+
+    .buttonCard {
+        font-size: 13px;
+        width: 20vh;
+    }
+
+    .footer {
+        gap: 5vh;
+        line-height: 5vh;
+    }
+
+    .footerItem {
+        font-size: 14px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 760px) {
+    .teste {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .navbarContainer {
+        height: 30vh;
+    }
+
+    .teste2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .paragraphContainer {
+        height: 40vh;
+        padding: 20px;
+    }
+
+    .containerCripto {
+        flex-direction: column;
+        height: 180vh;
+        gap: 30px;
+    }
+
+    .containerCard {
+        height: 50vh;
+    }
+
+    .imgCripto {
+        width: 70%;
+        height: auto;
+    }
+
+
+    .inputMensagem {
+        margin-left: 0px;
+    }
+
+    .footer {
+        gap: 2vh;
+    }
+
+}
+
+@media(max-width:650px) {
+    .footer {
+        flex-direction: column;
+        height: 70vh;
+        line-height: 4vh;
+    }
+
+    .footerItem {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+}
+
+@media(max-width: 440px) {
+    .input {
+        width: 20vh;
+    }
+
+    .paragraphContainer {
+        font-size: 12px;
+    }
+
+    .imgCripto {
+        height: auto;
+        width: 90%;
+    }
+
+    .containerRobo1 {
+        padding-right: 0px;
+    }
+
+    .paragraphContainer{
+        height: 40vh;
+        font-size: 10px;
+    }
+}
